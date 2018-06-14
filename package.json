@@ -1,0 +1,16 @@
+{
+  "name": "hatena-blog-wsse-helper",
+  "version": "0.0.1",
+  "description": "はてなブログの記事取得・投稿を AtomPub + WSSE で行う",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "turusuke <mail@turusuke.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "wsse": "^2.4.0",
+    "xml2js": "^0.4.19"
+  }
+}

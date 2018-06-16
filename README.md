@@ -19,7 +19,7 @@ console.log(getEntry().then((res) => console.log(res)));
 * 詳細は [はてなブログAtomPub](http://developer.hatena.ne.jp/ja/documents/blog/apis/atom) 内の `ブログエントリの投稿` を参照
 
 ```js
-postEntry().then(() => console.log('done!'));
+postEntry(options).then(() => console.log('done!'));
 ```
 
 #### Options
